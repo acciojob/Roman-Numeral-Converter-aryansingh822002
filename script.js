@@ -10,7 +10,7 @@ function convertToRoman(num) {
     };
 	let result = '';
 
-  for (let [roman, value] of romanMap) {
+  for (let [roman, value] of obj) {
     while (num >= value) {
       result += roman;
       num -= value;
